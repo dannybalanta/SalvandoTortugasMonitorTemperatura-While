@@ -1,5 +1,5 @@
 {
-    "name": "SalvandoLasTorturas-MonitorTemperaturaBucleWhile",
+    "name": "SalvandoLasTorturas-MonitorTemperaturaCondicional-If",
     "description": "",
     "dependencies": {
         "core": "*",
