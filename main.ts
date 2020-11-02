@@ -18,6 +18,10 @@ basic.forever(function () {
     } else if (input.temperature() > 34) {
         // muestre símbolo de X ó alerta
         basic.showIcon(IconNames.No)
+        for (let index = 0; index < 4; index++) {
+            music.playTone(262, music.beat(BeatFraction.Breve))
+            basic.pause(200)
+        }
         // pausa de 500 milisegundos
         basic.pause(500)
         // limpiar pantalla
