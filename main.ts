@@ -21,4 +21,6 @@ basic.forever(function () {
         basic.showString("T baja")
         basic.pause(500)
     }
+    basic.clearScreen()
+    basic.pause(2000)
 })
