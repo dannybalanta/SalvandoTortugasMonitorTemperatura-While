@@ -19,7 +19,10 @@ basic.forever(function () {
         // muestre símbolo de X ó alerta
         basic.showIcon(IconNames.No)
         for (let index = 0; index < 4; index++) {
+            // alarma que alerte de alta temperatura sonando 4 veces
+            // reproduce sonido
             music.playTone(262, music.beat(BeatFraction.Breve))
+            // pausa de 200 milisegundos entre cada pitido de la alarma
             basic.pause(200)
         }
         // pausa de 500 milisegundos
